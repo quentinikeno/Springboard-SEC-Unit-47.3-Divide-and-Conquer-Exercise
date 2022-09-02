@@ -1,4 +1,4 @@
-const findRotatedIndex = require("./findRotatedIndex");
+const findRotatedIndex = require("./find-rotated-index");
 
 it("should find the index of an integer in a rotated array", () => {
 	expect(findRotatedIndex([3, 4, 1, 2], 4)).toBe(1);
