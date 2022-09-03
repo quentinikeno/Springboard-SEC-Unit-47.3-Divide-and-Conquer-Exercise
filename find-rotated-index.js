@@ -45,7 +45,6 @@ function findMinIndex(arr, leftIndex, rightIndex) {
 			rightIndex = midIndex - 1;
 		}
 	}
-	return -1;
 }
 
 module.exports = findRotatedIndex;
